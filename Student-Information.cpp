@@ -1,26 +1,35 @@
-#include <iostream>
-#include <string>
+//Name : Ninad Phatak
+//PRN : 240701234065
+//Batch : ENTC A3
+#include<iostream>
 using namespace std;
-class Student {
-public:
+class student{
+    public:
     string name;
     string branch;
     string subject;
-    string year;
     float result;
-    int rollNumber; 
 };
-int main() {
-    Student s1;
-    s1.name = "Ninad Phatak";
-    s1.branch = "ENTC";
-    s1.subject = "C++";
-    s1.year = "2";
-    s1.result = 9.77;
-    cout<<"Name: "<<s1.name<<endl;
-    cout<<"Branch: "<<s1.branch<<endl;
-    cout<<"Subject: "<<s1.subject<<endl;
-    cout<<"Year: "<<s1.year<<endl;
-    cout<<"Result: "<<s1.result<<endl;
-    return 0;
+int main(){
+    cout<<"student 1"<<endl;
+    student s1;
+    s1.name="Ninad Phatak";
+    s1.branch="Mechanical";
+    s1.subject="C++";
+    s1.result=8.6;
+    cout<<s1.name<<endl;
+    cout<<s1.branch<<endl;
+    cout<<s1.subject<<endl;
+    cout<<s1.result<<endl;
+        cout<<"student 2"<<endl;
+        student s2;
+        s2.name="Atharv Jamali";
+        s2.branch="ENTC";
+        s2.subject="Mathematics";
+        s2.result=7.0;
+        cout<<s2.name<<endl;  
+        cout<<s2.branch<<endl;
+        cout<<s2.subject<<endl;
+        cout<<s2.result<<endl;
+         return 0;
 }
